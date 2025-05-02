@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "playfair";
+  src: url(../Fonts/playfair/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: "bebas";
+  src: url(../Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "josefin_sans";
+  src: url(../Fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+}
+@font-face {
+  font-family: "boska";
+  src: url(../Fonts/boska/Boska-Variable.ttf);
+}
+@font-face {
+  font-family: "supreme";
+  src: url(../Fonts/supreme/Supreme-Extralight.ttf);
+}
+@font-face {
+  font-family: "monor";
+  src: url(../Fonts/monor/Monor_Regular.otf);
+}
+@font-face {
+  font-family: "degheet";
+  src: url(../Fonts/degheest/Louise-Regular.ttf);
+}
+@font-face {
+  font-family: "greeet";
+  src: url(../Fonts/degheest/Director-Regular.ttf);
+}
+@font-face {
+  font-family: "ginger";
+  src: url(../Fonts/degheest/Equateur-Regular.ttf);
+}
+
+#NavBar {
+  
+  width: 100% !important;
+  // position: relative;
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  // background-color: hsla(0, 0%, 100%, 0);
+a{
+  color:inherit !important;
+  text-decoration: none;
+}
+  .dul {
+    // margin: 0 auto !important;
+    display: flex;
+    padding-left: 0px !important;
+    width: 30%;
+    align-items: center;
+    height: 60px;
+    // position: absolute;
+    // top: -10px;
+    color: #ffffff;
+    animation: fallAnimation 2s forwards;
+    background-color: hsla(0, 0%, 100%, 0);
+  }
+  @keyframes fallAnimation {
+    0% {
+      top: -100px;
+    }
+    100% {
+      // top: calc(50% - 50px); /* Adjust the final position as needed */
+      top: 0px;
+    }
+  }
+  .dul li {
+    list-style: none;
+    font-family: "bebas";
+    font-size: 22px;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+  }
+  .dul li:hover {
+    // color: rgb(255, 255, 255);
+    // border-radius: 25px;
+    // background-color: black;
+    // animation: change 1s forwards;
+    background-color: #ffffff44;
+  }
+  @keyframes change {
+    0% {
+      background-color: rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
+      border-radius: 20px;
+    }
+    100% {
+      // top: calc(50% - 50px); /* Adjust the final position as needed */
+      // background-color: black;
+      color: rgb(255, 255, 255);
+      border-radius: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .dul {
+      width: 90%;
+    }
+  }
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: white;
+  // background-color: #310e68;
+  // background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+  width: 100%;
+  height: 100vh;
+  color: #ffffff !important;
+
+}
+.hassafdwen{
+  background: linear-gradient(64deg,#e6e4e4, #000000        );
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 58s ease infinite;
+  -moz-animation: AnimationName 58s ease infinite;
+  animation: AnimationName 58s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent  ;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+
+
+
+.mianInt {
+  font-family: "boska";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 160px;
+  text-align: center;
+
+color:white
+}
+
+.Muqabla {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.passIo {
+  font-family: "supreme";
+  font-style: normal;
+  // font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+  word-spacing: 2rem;
+}
+.greet {
+  font-size: 25px;
+  font-family: "greeet";
+}
+.raghalai {
+  position: absolute;
+  left: -100px;
+  animation: moveAnimation 2s forwards;
+}
+@keyframes moveAnimation {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: calc(100% - 100px);
+  }
+}
+
+.artist {
+  font-family: "monor";
+}
+.musician {
+  font-family: "degheet";
+}
+.singer {
+  font-family: "ginger";
+}
+.raghalai {
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  rotate: 270deg;
+}
+.navLi {
+  font-family: "bebas" !important;
+  font-size: 22px !important;
+  cursor: pointer !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.w-60Nav {
+  width: 60% !important;
+}
+.navbar-expand-lg .container {
+  max-width: 100%;
+}
+
+.mrqeDiv {
+  font-size: 80px;
+  opacity: 0.2;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  // rotate : 60deg
+}
+
+@media only screen and (max-width: 1052px) {
+  .mianInt {
+    font-size: 120px;
+    line-height: 140px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .mianInt {
+    font-size: 90px;
+    line-height: 110px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .mianInt {
+    font-size: 80px;
+    line-height: 90px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .mianInt {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .greet {
+    font-size: 20px;
+  }
+  .passIo {
+    font-size: 17px;
+    word-spacing: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .mianInt {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .greet {
+    font-size: 18px;
+  }
+  .passIo {
+    font-size: 16px;
+    word-spacing: 1rem;
+  }
+}

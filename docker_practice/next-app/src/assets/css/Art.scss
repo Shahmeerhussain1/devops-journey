@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "playfair";
+    src: url(../Fonts/playfair/PlayfairDisplay-Bold.ttf);
+  }
+  @font-face {
+    font-family: "bebas";
+    src: url(../Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+  }
+  @font-face {
+    font-family: "josefin_sans";
+    src: url(../Fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: "boska";
+    src: url(../Fonts/boska/Boska-Variable.ttf);
+  }
+  @font-face {
+    font-family: "supreme";
+    src: url(../Fonts/supreme/Supreme-Extralight.ttf);
+  }
+  @font-face {
+    font-family: "monor";
+    src: url(../Fonts/monor/Monor_Regular.otf);
+  }
+  @font-face {
+    font-family: "degheet";
+    src: url(../Fonts/degheest/Louise-Regular.ttf);
+  }
+  @font-face {
+    font-family: "greeet";
+    src: url(../Fonts/degheest/Director-Regular.ttf);
+  }
+  @font-face {
+    font-family: "ginger";
+    src: url(../Fonts/degheest/Equateur-Regular.ttf);
+  }
+  @font-face {
+    font-family: "raleway";
+    src: url(../Fonts/Raleway/Raleway-Medium.ttf);
+  }
+#Art{
+    margin-bottom: 120px;
+
+    a{
+        width: auto;
+        color: inherit;
+    }
+    .ArtSubOne{
+        margin-top: 300px;
+        margin-bottom: 120px;
+        text-align: right;
+        font-family: "bebas";
+        font-size: 42px;
+        width: 80%;
+        color: white !important;
+    
+      }
+      .ArtOne{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 80%;
+
+      }
+      @media only screen and (max-width: 1052px) {
+       
+        .ArtSubOne{
+          margin-bottom: 100px;
+      
+        }
+       
+      }
+      @media only screen and (max-width: 850px) {
+        
+        .ArtSubOne{
+          margin-bottom: 90px;
+      
+        }
+      }
+      
+      @media only screen and (max-width: 650px) {
+       
+        .ArtSubOne{
+          margin-bottom: 60px;
+      
+        }
+        
+          .ArtSubOne{
+          width: 90%;
+        }
+        
+       
+      }
+
+
+
+
+.card1 {
+    position: relative;
+    width: 290px !important;
+    height: 360px !important;
+    background-image: url('../Images/mena.png');
+    background-position: center;
+    background-size: cover;
+margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .card1::before,
+  .card1::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.514);
+    transition: all 0.5s;
+  }
+  
+  .card1::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card1::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card1:hover::before,
+  .card1:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .card1:hover:after {
+    content: "LISTEN ▶";
+  }
+
+
+
+  
+.card2 {
+    position: relative;
+    width: 290px !important;
+    height: 360px !important;
+    background-image: url('../Images/naray_baraan.png');
+    background-position: center;
+    background-size: cover;
+margin: 5px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .card2::before,
+  .card2::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.514);
+    transition: all 0.5s;
+  }
+  
+  .card2::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card2::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card2:hover::before,
+  .card2:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .card2:hover:after {
+    content: "LISTEN ▶";
+  }
+
+
+
+
+  .card3 {
+    position: relative;
+    width: 290px !important;
+    height: 360px !important;
+    background-image: url('../Images/medley.png');
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .card3::before,
+  .card3::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.514);
+    transition: all 0.5s;
+  }
+  
+  .card3::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card3::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card3:hover::before,
+  .card3:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .card3:hover:after {
+    content: "LISTEN ▶";
+  }
+}

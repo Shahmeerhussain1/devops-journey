@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "playfair";
+    src: url(../Fonts/playfair/PlayfairDisplay-Bold.ttf);
+  }
+  @font-face {
+    font-family: "bebas";
+    src: url(../Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+  }
+  @font-face {
+    font-family: "josefin_sans";
+    src: url(../Fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: "boska";
+    src: url(../Fonts/boska/Boska-Variable.ttf);
+  }
+  @font-face {
+    font-family: "supreme";
+    src: url(../Fonts/supreme/Supreme-Extralight.ttf);
+  }
+  @font-face {
+    font-family: "monor";
+    src: url(../Fonts/monor/Monor_Regular.otf);
+  }
+  @font-face {
+    font-family: "degheet";
+    src: url(../Fonts/degheest/Louise-Regular.ttf);
+  }
+  @font-face {
+    font-family: "greeet";
+    src: url(../Fonts/degheest/Director-Regular.ttf);
+  }
+  @font-face {
+    font-family: "ginger";
+    src: url(../Fonts/degheest/Equateur-Regular.ttf);
+  }
+  @font-face {
+    font-family: "raleway";
+    src: url(../Fonts/Raleway/Raleway-Medium.ttf);
+  }
+
+#about{
+width: 100%;
+// height: 90vh;
+// background-image: url('../Images/booking_1.png');
+// background-position-y: bottom;background-position-x: left;
+// background-repeat: no-repeat;
+.Ani{
+  position: absolute;
+  color: white;
+  font-size: 75px;
+  opacity: 0.5;
+}
+.aboutSubOne{
+    margin-bottom: 120px;
+    text-align: right;
+    font-family: "bebas";
+    font-size: 42px;
+    width: 80%;
+    color: white !important;
+  overflow-x: hidden;
+
+
+  }
+  .aboutSubTwo{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  .aboutOne{
+    color: white;
+    width: 75%;
+    text-align: center;
+    font-family: raleway;
+    line-height: 40px;
+    font-size: 36px;
+    line-height: 59px;
+    font-weight: 600;
+    // line-height: 12.5w;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .special{
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: 46px;
+    line-height: 80px;
+    font-family: bebas;
+  }
+  .aboutTwo{
+    width: 50%;
+    background-color: white;
+  }
+  
+
+
+
+@media only screen and (max-width: 1352px) {
+  .aboutOne{
+    width: 90%;
+  }
+ 
+}
+@media only screen and (max-width: 1052px) {
+  .aboutOne{
+    width: 100%;
+ 
+  }
+  .aboutOne{
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 500;
+  }
+  .aboutSubOne{
+    margin-bottom: 100px;
+
+  }
+ 
+}
+@media only screen and (max-width: 850px) {
+  .aboutOne{
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 400;
+  }
+  .aboutSubOne{
+    margin-bottom: 90px;
+
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .aboutOne{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .aboutSubOne{
+    margin-bottom: 60px;
+
+  }
+  .special{
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 50px;
+    font-family: bebas;
+  }
+  .aboutSubTwo , .aboutSubOne{
+    width: 90%;
+  }
+  
+ 
+}
+@media only screen and (max-width: 500px) {
+ 
+}
+@media only screen and (max-width: 400px) {
+
+}
+}

@@ -1,0 +1,54 @@
+
+
+@import "./frontSection.scss";
+@import "./about.scss";
+@import "./Art.scss";
+@import "./bookme.scss";
+
+
+
+
+
+* {
+  margin: 0 auto;
+  scroll-behavior :calc(2sec);
+  transition: 0.3s all ease-in-out;
+
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+*::selection {
+  color: #ffcf2b;
+  background: #262626;
+}
+
+.w-60{
+  width: 60% !important;
+}
+
+body{
+
+  background: linear-gradient(64deg,#000000, #420000  ,#000000, #420000      );
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 58s ease infinite;
+  -moz-animation: AnimationName 58s ease infinite;
+  animation: AnimationName 58s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
