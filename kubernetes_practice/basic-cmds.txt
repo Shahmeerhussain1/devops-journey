@@ -1,0 +1,22 @@
+#SYNTAX OF BASIC KUBERNETES COMMANDS
+
+#creating cluster
+kind create cluster --config cluster.yml
+
+#get running components
+kubectl get [nodes , ns , svc , pods]
+
+#get running components from specific namespace
+kubectl get [nodes , ns , svc , pods , deployment] -n [namespace]
+
+#delete runnning component
+kubectl delete -f  [nodes , ns , svc , pods].yml
+
+#create component
+kubectl apply -f [deployment , ns , svc , pods].yml
+
+#port forwarding of service to docker wall
+sudo -E kubectl port-forward svc/[service-name] -n [namespace-name] [ec2 image port]:[service port] --address=0.0.0.0
+
+
+

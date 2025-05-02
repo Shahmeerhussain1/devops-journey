@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: __-service
+spec:
+  selector:
+    app.kubernetes.io/name: MyApp
+  ports:
+    - protocol: TCP
+      port: __ # machine (service component) port
+      targetPort: ____ # container's port on which your application is running 
+
