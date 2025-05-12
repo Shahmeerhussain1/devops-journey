@@ -4,7 +4,7 @@ metadata:
   name: __-service
 spec:
   selector:
-    app.kubernetes.io/name: MyApp
+    app : MyApp
   ports:
     - protocol: TCP
       port: __ # machine (service component) port
